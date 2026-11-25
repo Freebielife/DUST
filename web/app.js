@@ -359,7 +359,8 @@ function walletIdentity(raw,name,kind,{activity=false, holder=false, verifiedDom
   const wrapper=el("span",undefined,"walletIdentity");
   const identity=snapshot.identity?.byWallet?.[raw];
   const domain=linkedDomain(raw);
-  const address=addr(raw,(holder&&identity?.role)||domain||name);
+  const roleName=identity?.role==="unclassified_contract" ? (lang==="ru" ? "Смарт-контракт" : "Smart contract") : identity?.role;
+  const address=addr(raw,(holder&&roleName)||domain||name);
   if(identity?.roleSource)address.title=(identity.serviceCategory||"service")+" · "+identity.roleSource;
   address.className="walletAddress "+(kind||"neutral");
   if(!activity&&holder&&kind){
