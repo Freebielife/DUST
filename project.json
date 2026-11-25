@@ -1,0 +1,118 @@
+{
+  "slug": "dust",
+  "name": "DeDust",
+  "symbol": "DUST",
+  "master": "EQBlqsm144Dq6SjbPI4jjZvA1hqTIP3CvHovbIfW_t-SCALE",
+  "decimals": 9,
+  "github": {
+    "owner": "Freebielife",
+    "repo": "DUST"
+  },
+  "pools": [
+    {
+      "address": "EQATCf6DbZhnkqGvWfVg4WjgLoS0J2GRSY7_DBx4yHenxdXQ",
+      "dex": "dedust",
+      "quote": "TON",
+      "evidence": "https://tonapi.io/v2/accounts/EQATCf6DbZhnkqGvWfVg4WjgLoS0J2GRSY7_DBx4yHenxdXQ/events?limit=100"
+    },
+    {
+      "address": "EQDcm06RlreuMurm-yik9WbL6kI617B77OrSRF_ZjoCYFuny",
+      "dex": "dedust",
+      "quote": "TON",
+      "evidence": "https://tonapi.io/v2/accounts/EQDcm06RlreuMurm-yik9WbL6kI617B77OrSRF_ZjoCYFuny/events?limit=100"
+    },
+    {
+      "address": "EQBCUifO2pZHiz-IGkzGF74szy0XYelqMCprbjZJcXRf86hz",
+      "dex": "dedust",
+      "quote": "TON",
+      "evidence": "https://tonapi.io/v2/accounts/EQBCUifO2pZHiz-IGkzGF74szy0XYelqMCprbjZJcXRf86hz/events?limit=100"
+    }
+  ],
+  "primary_pool": "EQATCf6DbZhnkqGvWfVg4WjgLoS0J2GRSY7_DBx4yHenxdXQ",
+  "links": {
+    "telegram": "https://t.me/dedust",
+    "website": "https://dedust.io",
+    "x": "https://x.com/dedust_io"
+  },
+  "services": {
+    "UQD4uGNdB4a3f52mYOZf0x1nCmdd1DAvrLppL0a1cetTYCQx": "Binance",
+    "EQDPfqI17W9lF-3OmAJu92GOn22BoTMdTmW6cY4s0V-ArRRY": "Bybit",
+    "0:1309fe836d986792a1af59f560e168e02e84b4276191498eff0c1c78c877a7c5": "DeDust Pool",
+    "0:dc9b4e9196b7ae32eae6fb28a4f566cbea423ad7b07becead2445fd98e809816": "DeDust Pool",
+    "0:425227ceda96478b3f881a4cc617be2ccf2d1761e96a302a6b6e364971745ff3": "DeDust Pool"
+  },
+  "engine_version": "1.3.0",
+  "discovery": {
+    "checkedAt": 1795628996,
+    "sources": [
+      "https://tonapi.io/v2/jettons/EQBlqsm144Dq6SjbPI4jjZvA1hqTIP3CvHovbIfW_t-SCALE",
+      "https://api.geckoterminal.com/api/v2/networks/ton/tokens/EQBlqsm144Dq6SjbPI4jjZvA1hqTIP3CvHovbIfW_t-SCALE/pools?page=1"
+    ],
+    "primaryPoolPolicy": "largest indexed USD liquidity among three swap-verified native TON pools on the first indexed page; other pools not exhaustively verified"
+  },
+  "project_description": {
+    "text": "DUST is the governance token for the DeDust Protocol.",
+    "origin": "token_metadata",
+    "sources": [
+      "https://tonapi.io/v2/jettons/EQBlqsm144Dq6SjbPI4jjZvA1hqTIP3CvHovbIfW_t-SCALE",
+      "https://dedust.io/"
+    ],
+    "checked_at": "2026-11-25"
+  },
+  "flag_catalog_key": "dedust",
+  "logo_file": "web/project-logo.webp",
+  "logo_origin": "token_metadata",
+  "logo_source": "https://cache.tonapi.io/imgproxy/rJ4qAiXZRWvGV6CCF8jHz-qE0-hmqWMUkI9BDDrfaXc/rs:fill:200:200:1/g:no/aXBmczovL1FtYVpuOHkzSm5kcmVQamVVYkRRdEJ5UFY2ZXpId1A2N3BWYUpHM1dXcGFtTEI.webp",
+  "service_provenance": {
+    "0:f8b8635d0786b77f9da660e65fd31d670a675dd4302facba692f46b571eb5360": {
+      "category": "custody",
+      "source": "User-provided attribution, 2026-11-22; ownership not independently verified"
+    },
+    "0:cf7ea235ed6f6517edce98026ef7618e9f6d81a1331d4e65ba718e2cd15f80ad": {
+      "category": "custody",
+      "source": "User-provided attribution, 2026-11-22; ownership not independently verified"
+    },
+    "0:1309fe836d986792a1af59f560e168e02e84b4276191498eff0c1c78c877a7c5": {
+      "category": "pool",
+      "source": "https://tonapi.io/v2/accounts/EQATCf6DbZhnkqGvWfVg4WjgLoS0J2GRSY7_DBx4yHenxdXQ/events?limit=100"
+    },
+    "0:dc9b4e9196b7ae32eae6fb28a4f566cbea423ad7b07becead2445fd98e809816": {
+      "category": "pool",
+      "source": "https://tonapi.io/v2/accounts/EQDcm06RlreuMurm-yik9WbL6kI617B77OrSRF_ZjoCYFuny/events?limit=100"
+    },
+    "0:425227ceda96478b3f881a4cc617be2ccf2d1761e96a302a6b6e364971745ff3": {
+      "category": "pool",
+      "source": "https://tonapi.io/v2/accounts/EQBCUifO2pZHiz-IGkzGF74szy0XYelqMCprbjZJcXRf86hz/events?limit=100"
+    }
+  },
+  "flag_source": "TONecoFlags #020 (original WebM)",
+  "template_repository": "Freebielife/TON-Observatory-Template",
+  "max_html_bytes": 2500000,
+  "ui": {
+    "holders_initial": 10,
+    "holders_expanded": 20
+  },
+  "methodology": {
+    "valuation": "last observed swap in primary_pool times CURRENT total supply; not circulating market cap",
+    "primary_pool": "EQATCf6DbZhnkqGvWfVg4WjgLoS0J2GRSY7_DBx4yHenxdXQ",
+    "sellers": "sum of successful supported native TON swap sales; service roles excluded",
+    "holders": "balances excluding known services and identified contracts; unclassified accounts may remain until verified",
+    "burns": "accepted burn notifications and zero-address transfers shown as distinct evidence",
+    "usd": "historical TON/USD rate from CoinGecko",
+    "history": "incremental confirmed swaps; missing intervals remain partial"
+  },
+  "branding": {
+    "hero": {
+      "origin": "token_metadata",
+      "source": "https://cache.tonapi.io/imgproxy/rJ4qAiXZRWvGV6CCF8jHz-qE0-hmqWMUkI9BDDrfaXc/rs:fill:200:200:1/g:no/aXBmczovL1FtYVpuOHkzSm5kcmVQamVVYkRRdEJ5UFY2ZXpId1A2N3BWYUpHM1dXcGFtTEI.webp",
+      "file": "web/project-logo.webp"
+    },
+    "sectionFlag": {
+      "source": "TONecoFlags #020 (original WebM)",
+      "catalogueKey": "dedust",
+      "emoji": null,
+      "file": "web/project-flag.webp"
+    },
+    "channel": "https://t.me/dedust"
+  }
+}
